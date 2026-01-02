@@ -1,0 +1,72 @@
+*{
+  all: unset;
+  font-family: "GohuFont 11 Nerd Font ";
+  font-size: 15;
+}
+
+scale trough{
+  all: unset;
+  min-width: 70px;
+  min-height: 10px;
+  border-radius: 10px;
+  background-color: $dim;
+  margin: 0 10 0 10;
+}
+
+.bubble{
+  //background-color: $BG;
+  color: $FG;
+}
+
+.stdwidget{
+  background-color: $dim;
+  padding: 0 10 0 10;
+  margin: 10 10 0 10;
+  color: $FG;
+  border-radius: 8;
+}
+
+.bgcolor{
+  margin: 8 0 8 0;
+  padding: 0 5 0 5;
+  border-radius: 5;
+}
+
+.date{
+  @extend.bgcolor;
+  color: $blue;
+  background-color: $bgblue;
+}
+
+.vol{
+  @extend.bgcolor;
+  color: $green;
+  background-color: $bggreen;
+}
+
+.music{
+  @extend.bgcolor;
+  color: $yellow;
+  background-color: $bgyellow;
+}
+
+.workspace{
+  @extend.bgcolor;
+  color: $orange;
+  background-color: $bgorange;
+}
+
+.power{
+  @extend.bgcolor;
+  color: $red;
+  background-color: $bgred;
+}
+
+.musbut{
+  padding: 0 12 0 4;
+}
+
+.volbar trough highlight{
+  background-color: $green;
+  border-radius: 10px;
+}

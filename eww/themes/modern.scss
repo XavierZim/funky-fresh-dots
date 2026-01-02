@@ -1,0 +1,28 @@
+*{
+  all: unset;
+  font-family: "GohuFont 11 Nerd Font ";
+  font-size: 20;
+}
+
+.modern{
+  background-color: $dim;
+  color: $FG;
+}
+
+.basic{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $BG;
+}
+
+scale trough{
+  all: unset;
+  min-width: 100px;
+  min-height: 15px;
+  background-color: $dim;
+  margin: 0 10 0 10;
+}
+
+.volbar trough highlight{
+  background-color: $FG;
+}
